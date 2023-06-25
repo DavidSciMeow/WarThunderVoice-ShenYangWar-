@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{5d401f4e-c0d4-4e7a-b3ff-94a682676455}">
+		<property name="volume">
+			<value>6</value>
+		</property>
+		<property name="overridingInputFormat">
+			<value>1</value>
+		</property>
+		<property name="name">
+			<value>ground</value>
+		</property>
+		<relationship name="masters">
+			<destination>{3c5c0e3e-8eb6-43a8-bdc6-c56a8769a0bf}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{2c8e12b8-034e-4206-84b0-59b6452623b2}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{2e4a7432-9d8e-4a4c-9799-f1716b72c21c}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{478ebebc-6219-47d5-b50d-2e3a8d0a67fd}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{2c8e12b8-034e-4206-84b0-59b6452623b2}">
+		<relationship name="effects">
+			<destination>{48e20537-1de4-4c57-bdfb-c74627db44a6}</destination>
+			<destination>{3c865b69-d77d-4d32-8a66-9e9211d8cb7f}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{2e4a7432-9d8e-4a4c-9799-f1716b72c21c}">
+		<property name="surroundLFELevel">
+			<value>-3</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>5</value>
+		</property>
+		<property name="LFEUpmixEnabled">
+			<value>true</value>
+		</property>
+	</object>
+	<object class="Sidechain" id="{48e20537-1de4-4c57-bdfb-c74627db44a6}" />
+	<object class="MixerBusFader" id="{3c865b69-d77d-4d32-8a66-9e9211d8cb7f}" />
+</objects>

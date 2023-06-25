@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{f56327ee-40b4-4585-a41f-c26ee506c4f4}">
+		<property name="overridingInputFormat">
+			<value>1</value>
+		</property>
+		<property name="name">
+			<value>rapid</value>
+		</property>
+		<relationship name="masters">
+			<destination>{c2548291-bcce-46f4-805a-9140cfb1b722}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{44bc1686-6f5e-4319-a8a1-51b2fa4a900e}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{646f1a93-ad66-4305-b16c-829c83cbda8c}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{eecdb4c5-27aa-4d09-b3e1-4ea11de2158a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{44bc1686-6f5e-4319-a8a1-51b2fa4a900e}">
+		<relationship name="effects">
+			<destination>{7daa15ec-12ee-45be-93c9-ebfab858b274}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{646f1a93-ad66-4305-b16c-829c83cbda8c}">
+		<property name="stereoToSurroundPanMode">
+			<value>0</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>5</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{7daa15ec-12ee-45be-93c9-ebfab858b274}" />
+</objects>

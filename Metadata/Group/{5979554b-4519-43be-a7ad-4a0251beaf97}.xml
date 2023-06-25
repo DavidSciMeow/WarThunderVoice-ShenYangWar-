@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{5979554b-4519-43be-a7ad-4a0251beaf97}">
+		<property name="volume">
+			<value>-6</value>
+		</property>
+		<property name="name">
+			<value>autocannons</value>
+		</property>
+		<property name="maxInstances">
+			<value>6</value>
+		</property>
+		<property name="instanceStealing">
+			<value>4</value>
+		</property>
+		<relationship name="masters">
+			<destination>{a3a6f756-e34f-42bb-ab31-7787d4903a24}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{faab91ee-8b6c-4ae1-bed0-2aebd8385aa5}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{33c533b8-eff4-42d1-8985-0b6151038f01}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{aecee27b-7fb1-4e24-a5fd-f081dd2a7db0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{faab91ee-8b6c-4ae1-bed0-2aebd8385aa5}">
+		<relationship name="effects">
+			<destination>{83332889-8faa-4456-bf4e-bccaccc34496}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{33c533b8-eff4-42d1-8985-0b6151038f01}" />
+	<object class="MixerBusFader" id="{83332889-8faa-4456-bf4e-bccaccc34496}" />
+</objects>

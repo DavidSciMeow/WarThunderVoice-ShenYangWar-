@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{aecee27b-7fb1-4e24-a5fd-f081dd2a7db0}">
+		<property name="name">
+			<value>naval</value>
+		</property>
+		<property name="instanceStealing">
+			<value>4</value>
+		</property>
+		<relationship name="masters">
+			<destination>{d7fac8c5-79fa-4eee-99d2-88e617b6e398}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{b6fd43a9-4684-4dfd-b11c-9abb9af52c6f}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{7b22977c-3e48-4056-b7d9-67262042a6ee}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{b1a320dc-84b7-4ceb-a4a6-16e9dd5216fc}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{b6fd43a9-4684-4dfd-b11c-9abb9af52c6f}">
+		<relationship name="effects">
+			<destination>{7397e1b9-b10e-4b91-94d4-d13263855fa2}</destination>
+			<destination>{2da5d2d9-05a1-4615-a0ec-695d0e95cce5}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{7b22977c-3e48-4056-b7d9-67262042a6ee}" />
+	<object class="MixerBusFader" id="{7397e1b9-b10e-4b91-94d4-d13263855fa2}" />
+	<object class="MultibandEqEffect" id="{2da5d2d9-05a1-4615-a0ec-695d0e95cce5}">
+		<property name="filterTypeA">
+			<value>7</value>
+		</property>
+		<property name="filterTypeB">
+			<value>7</value>
+		</property>
+		<property name="filterTypeD">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>100.667625</value>
+		</property>
+		<property name="frequencyB">
+			<value>60</value>
+		</property>
+		<property name="frequencyC">
+			<value>800</value>
+		</property>
+		<property name="frequencyD">
+			<value>2000</value>
+		</property>
+		<property name="gainB">
+			<value>6</value>
+		</property>
+		<property name="gainC">
+			<value>4</value>
+		</property>
+		<relationship name="automators">
+			<destination>{0e94247e-475c-4c8d-9f6f-f1ab77e4de37}</destination>
+		</relationship>
+		<relationship name="modulators">
+			<destination>{4177681a-21b9-4107-b532-6a1f61fdba31}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{0e94247e-475c-4c8d-9f6f-f1ab77e4de37}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>gainA</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{96b3a2a0-f125-437e-8d85-98fc46dd6645}</destination>
+		</relationship>
+	</object>
+	<object class="LFOModulator" id="{4177681a-21b9-4107-b532-6a1f61fdba31}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>gainD</value>
+		</property>
+		<property name="rate">
+			<value>0.119999997</value>
+		</property>
+		<property name="depth">
+			<value>12</value>
+		</property>
+	</object>
+	<object class="AutomationCurve" id="{96b3a2a0-f125-437e-8d85-98fc46dd6645}">
+		<relationship name="parameter">
+			<destination>{629f73ca-453e-4b6b-8205-62e297e393f0}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{b74601d8-14b8-4a9d-9da6-0c6f1647b69f}</destination>
+			<destination>{186457a4-1420-4cfc-a971-b69803421085}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{b74601d8-14b8-4a9d-9da6-0c6f1647b69f}">
+		<property name="position">
+			<value>14.124293785310735</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>1</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{186457a4-1420-4cfc-a971-b69803421085}">
+		<property name="position">
+			<value>700</value>
+		</property>
+		<property name="value">
+			<value>-6</value>
+		</property>
+	</object>
+</objects>

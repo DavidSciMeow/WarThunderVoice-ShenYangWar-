@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EffectPreset" id="{7a50adf3-7252-4b4c-94fd-9a7e3259c1c3}">
+		<property name="name">
+			<value>Tank_AA_Far_AI_Gain</value>
+		</property>
+		<relationship name="folder">
+			<destination>{c422784a-e4b1-0614-3427-17e3ac842e0e}</destination>
+		</relationship>
+		<relationship name="effect">
+			<destination>{df919826-ea38-456b-ba21-eaf34e525f26}</destination>
+		</relationship>
+	</object>
+	<object class="GainEffect" id="{df919826-ea38-456b-ba21-eaf34e525f26}">
+		<relationship name="automators">
+			<destination>{3b49b15c-ce76-45ea-976c-f25c1dfe4fe5}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{3b49b15c-ce76-45ea-976c-f25c1dfe4fe5}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>gain</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{a577d44e-224c-4910-a67b-161eb722f57f}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{a577d44e-224c-4910-a67b-161eb722f57f}">
+		<relationship name="parameter">
+			<destination>{ed7d0faf-c631-4677-8381-94052501a821}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{cf4a747f-3ae9-4039-a47a-0595411da5a7}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{cf4a747f-3ae9-4039-a47a-0595411da5a7}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>4</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.00106776773</value>
+		</property>
+	</object>
+</objects>
