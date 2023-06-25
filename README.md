@@ -35,7 +35,7 @@
 | voice_message_commander_target_\* |目标汇报| 无 |
 | voice_message_commander_correction_\* |车长攻击修正| 无 |
 | voice_message_commander_engine_\* |引擎相关操作| 无 |
-| voice_message_commander_shovel|\* |车铲控制| 无 |
+| voice_message_commander_shovel\* |车铲控制| 无 |
 | voice_message_commander_stabilizer_\* |稳定器控制| 无 |
 | voice_message_commander_night_vision_\* |夜视仪控制| 无 |
 | voice_message_commander_ucav_\* |探测无人机控制| 无 |
