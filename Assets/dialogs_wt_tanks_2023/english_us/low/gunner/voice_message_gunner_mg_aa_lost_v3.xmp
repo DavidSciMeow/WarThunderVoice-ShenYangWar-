@@ -26,24 +26,24 @@
                </rdf:li>
             </rdf:Bag>
          </xmpDM:Tracks>
-         <xmp:MetadataDate>2023-06-26T02:43:50+08:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2023-06-26T02:43:50+08:00</xmp:ModifyDate>
-         <xmpMM:InstanceID>xmp.iid:eb71aee9-d5fc-fd45-ab39-2401b169c389</xmpMM:InstanceID>
-         <xmpMM:DocumentID>xmp.did:a2848cb2-44bb-3543-baa0-0bdd24c867bb</xmpMM:DocumentID>
-         <xmpMM:OriginalDocumentID>xmp.did:a2848cb2-44bb-3543-baa0-0bdd24c867bb</xmpMM:OriginalDocumentID>
+         <xmp:MetadataDate>2023-06-29T00:01:23+08:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2023-06-29T00:01:23+08:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:966553a2-58dc-a14d-8bbf-899ab97ebdc9</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:520b2901-fad9-b147-989b-4bbc204f56e4</xmpMM:DocumentID>
+         <xmpMM:OriginalDocumentID>xmp.did:520b2901-fad9-b147-989b-4bbc204f56e4</xmpMM:OriginalDocumentID>
          <xmpMM:History>
             <rdf:Seq>
                <rdf:li rdf:parseType="Resource">
                   <stEvt:action>saved</stEvt:action>
-                  <stEvt:instanceID>xmp.iid:a2848cb2-44bb-3543-baa0-0bdd24c867bb</stEvt:instanceID>
-                  <stEvt:when>2023-06-26T02:43:50+08:00</stEvt:when>
+                  <stEvt:instanceID>xmp.iid:520b2901-fad9-b147-989b-4bbc204f56e4</stEvt:instanceID>
+                  <stEvt:when>2023-06-29T00:01:23+08:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Audition CC 2019.0 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/metadata</stEvt:changed>
                </rdf:li>
                <rdf:li rdf:parseType="Resource">
                   <stEvt:action>saved</stEvt:action>
-                  <stEvt:instanceID>xmp.iid:eb71aee9-d5fc-fd45-ab39-2401b169c389</stEvt:instanceID>
-                  <stEvt:when>2023-06-26T02:43:50+08:00</stEvt:when>
+                  <stEvt:instanceID>xmp.iid:966553a2-58dc-a14d-8bbf-899ab97ebdc9</stEvt:instanceID>
+                  <stEvt:when>2023-06-29T00:01:23+08:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Audition CC 2019.0 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
