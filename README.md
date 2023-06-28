@@ -5,7 +5,6 @@
 
 | 文件      | 描述 | 语音 |
 | :-----------: | :-----------: | :-----------: |
-
 | voice_message_chief_battle_start |对局开始无线电操作员喊话| (小亮) 你不带你那俩狗徒弟来沈阳了么,我们就会会你 |
 | voice_message_commander_battle_start |对局开始车长喊话| (团长) 我来沈阳站了 |
 | voice_message_driver_battle_ready |对局开始驾驶员喊话| (唐老鸭) 这玩意都不能白卡啊,记住了 |
