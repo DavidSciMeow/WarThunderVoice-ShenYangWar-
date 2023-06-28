@@ -5,30 +5,25 @@
 
 | 文件      | 描述 | 语音 |
 | :-----------: | :-----------: | :-----------: |
-| voice_message_chief_air_danger |空情危险| (虎哥) 就你还要抓我嗷 |
-| voice_message_aviation_on_the_way |空中支援| (虎哥) 团长,黑牛白牛dell沈阳了 |
-| - | - | - |
+
 | voice_message_chief_battle_start |对局开始无线电操作员喊话| (小亮) 你不带你那俩狗徒弟来沈阳了么,我们就会会你 |
 | voice_message_commander_battle_start |对局开始车长喊话| (团长) 我来沈阳站了 |
 | voice_message_driver_battle_ready |对局开始驾驶员喊话| (唐老鸭) 这玩意都不能白卡啊,记住了 |
 | voice_message_gunner_battle_ready |对局开始炮手喊话| (虎哥) 我宣布个事! |
 | voice_message_loader_battle_ready |对局开始装填手喊话| (刀哥) 一拳打死你妈 |
-| - | - | - |
 | voice_message_chief_artillery_danger |火炮即将打击附近| (小亮) 咣咣往我脑瓜子上干啊 |
 | voice_message_chief_artillery_danger |火炮即将打击附近| (刀哥) 举报的哎,你看,举报的 |
 | voice_message_chief_artillery_danger |火炮即将打击附近| (刀哥) 天天炸我,完事吧,这边还举报我 |
 | voice_message_chief_artillery_danger |火炮即将打击附近| (刀哥) 天天来轰炸我啊,看着没 |
-| - | - | - |
 | voice_message_chief_battle_win |对局胜利| (虎哥) 哥们给我拿五百块钱吧 |
 | voice_message_chief_battle_loose |对局失败| (刀哥) 打火机也没了,号封一个月,钱扣七百多 |
-| - | - | - |
-| voice_message_artillery_\* |火炮支援复诵| 无 |
+| voice_message_chief_air_danger |空情危险| (虎哥) 就你还要抓我嗷 |
+| voice_message_aviation_on_the_way |空中支援| (虎哥) 团长,黑牛白牛dell沈阳了 |
 | voice_message_commander_art_\* |火炮标定| (虎哥) 来小亮给他整个活 |
 | voice_message_commander_art_on_me |炮击自身位置| (虎哥) 全体目光向我看齐啊,看我看我,我宣布个事 |
-| - | - | - |
 | voice_message_commander_load_AP |申请装填穿甲弹| (刀哥) 铁片纸 |
 | voice_message_commander_load_canister |申请装填霰弹| (刀哥) 穷匕匕 |
-| voice_message_commander_load_flares |申请装填*干扰弹*| (刀哥) 咬个打火机 |
+| voice_message_commander_load_flares |申请装填*干扰弹?*| (刀哥) 咬个打火机 |
 | voice_message_commander_load_frag |申请装填榴弹| (刀哥) 敌敌畏 |
 | voice_message_commander_load_HE |申请装填高爆弹| (刀哥) 肛瘘 |
 | voice_message_commander_load_HEAT |申请装填破甲弹| (刀哥) 泰深 |
@@ -36,28 +31,6 @@
 | voice_message_commander_load_missile |申请装填炮射导弹| (刀哥) 牛牛 |
 | voice_message_commander_load_sabot |申请装填硬芯穿甲弹| (刀哥) 啤酒瓶子 |
 | voice_message_commander_load_smoke |申请装填烟雾炮弹| (刀哥) 买盒煊赫门抽吧,南京 |
-| - | - | - |
-| voice_message_commander_shot |开火| 无 |
-| voice_message_commander_reload |重新装填| 无 |
-| voice_message_commander_target_\* |目标汇报| 无 |
-| voice_message_commander_correction_\* |车长攻击修正| 无 |
-| voice_message_commander_engine_\* |引擎相关操作| 无 |
-| voice_message_commander_shovel\* |车铲控制| 无 |
-| voice_message_commander_stabilizer_\* |稳定器控制| 无 |
-| voice_message_commander_night_vision_\* |夜视仪控制| 无 |
-| voice_message_commander_ucav_\* |探测无人机控制| 无 |
-| voice_message_commander_move_\* |移动相关控制| 无 |
-| voice_message_driver_correction_\* |驾驶员修正 敌军移动方向| 无 |
-| voice_message_driver_transmission_damaged |驾驶员报告 通讯受损| 无 |
-| voice_message_driver_move_forward |驾驶员报告 正在前进| 无 |
-| voice_message_driver_turning_left |驾驶员报告 正在左转| 无 |
-| voice_message_driver_turning_right |驾驶员报告 正在右转| 无 |
-| voice_message_gunner_turret_\* |炮手报告 炮塔移动| 无 |
-| voice_message_gunner_cannon_ready |炮手报告 炮待击发| 无 |
-| voice_message_gunner_mg_\* |炮手报告 机枪手受伤/阵亡| 无 |
-| voice_message_gunner_shot |炮手报告 已开炮| 无 |
-| voice_message_driver_engine_\* |引擎相关操作| 无 |
-| - | - | - |
 | voice_message_commander_bail |车长弃车| (刀哥) 艾玛啊没有活了, 拉跨了 |
 | voice_message_commander_crew_lost |车组成员阵亡| (虎哥) 啊!!徒弟!! |
 | voice_message_driver_correction_bracketed |驾驶员修正 敌装甲破损| (虎哥) 你狗屁才艺 |
@@ -98,7 +71,28 @@
 | voice_message_\*\_loader_\* \[loader_damaged\]|成员报告 装填手受伤/阵亡| (虎哥) 放开我徒弟!! |
 | voice_message_\*\_driver_\* \[driver_damaged\]|成员报告 驾驶员受伤/阵亡| (小亮) 呃, 唐老鸭要不行了.. |
 | voice_message_\*_taking_command |成员报告 车长受伤/阵亡| (黑牛) 团长他不行了,他这是什么啊这是 |
-
+| - | - 暂未适配语音 - | - |
+| voice_message_artillery_\* |火炮支援复诵| 无 |
+| voice_message_commander_shot |开火| 无 |
+| voice_message_commander_reload |重新装填| 无 |
+| voice_message_commander_target_\* |目标汇报| 无 |
+| voice_message_commander_correction_\* |车长攻击修正| 无 |
+| voice_message_commander_engine_\* |引擎相关操作| 无 |
+| voice_message_commander_shovel\* |车铲控制| 无 |
+| voice_message_commander_stabilizer_\* |稳定器控制| 无 |
+| voice_message_commander_night_vision_\* |夜视仪控制| 无 |
+| voice_message_commander_ucav_\* |探测无人机控制| 无 |
+| voice_message_commander_move_\* |移动相关控制| 无 |
+| voice_message_driver_correction_\* |驾驶员修正 敌军移动方向| 无 |
+| voice_message_driver_transmission_damaged |驾驶员报告 通讯受损| 无 |
+| voice_message_driver_move_forward |驾驶员报告 正在前进| 无 |
+| voice_message_driver_turning_left |驾驶员报告 正在左转| 无 |
+| voice_message_driver_turning_right |驾驶员报告 正在右转| 无 |
+| voice_message_gunner_turret_\* |炮手报告 炮塔移动| 无 |
+| voice_message_gunner_cannon_ready |炮手报告 炮待击发| 无 |
+| voice_message_gunner_mg_\* |炮手报告 机枪手受伤/阵亡| 无 |
+| voice_message_gunner_shot |炮手报告 已开炮| 无 |
+| voice_message_driver_engine_\* |引擎相关操作| 无 |
 
 
 
