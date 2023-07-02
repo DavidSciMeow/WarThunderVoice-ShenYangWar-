@@ -1,5 +1,5 @@
 
-# 战雷东百语音包 V1.0
+# 战雷东百语音包 V2.0
 
 ## 有任何整活建议可以提交Pullrequest*
 
@@ -15,7 +15,7 @@
 | voice_message_chief_artillery_danger |火炮即将打击附近| (刀哥) 天天炸我,完事吧,这边还举报我 |
 | voice_message_chief_artillery_danger |火炮即将打击附近| (刀哥) 天天来轰炸我啊,看着没 |
 | voice_message_chief_battle_win |对局胜利| (虎哥) 哥们给我拿五百块钱吧 |
-| voice_message_chief_battle_loose |对局失败| (刀哥) 打火机也没了,号封一个月,钱扣七百多 |
+| voice_message_chief_battle_loose |对局失败| (刀哥) 钱扣七百多 |
 | voice_message_chief_air_danger |空情危险| (虎哥) 就你还要抓我嗷 |
 | voice_message_aviation_on_the_way |空中支援| (虎哥) 团长,黑牛白牛dell沈阳了 |
 | voice_message_commander_art_\* |火炮标定| (虎哥) 来小亮给他整个活 |
@@ -46,19 +46,15 @@
 | voice_message_driver_correction_target_hit |驾驶员修正 敌击杀| (虎哥) 你算哪根葱! |
 | voice_message_driver_correction_undershoot |驾驶员修正 敌过穿| (唐老鸭) 这个弟中之弟! |
 | voice_message_driver_engine_fuel_leak |引擎漏油| (刀哥) 漏牛字了 |
-| voice_message_driver_engine_repaired |引擎修复| (虎哥) 都,都往后稍一稍! |
 | voice_message_driver_left_track |驾驶员报告 左履带断裂| (虎哥) 腰子给我创掉了,一拉拉淌血 |
 | voice_message_driver_right_track |驾驶员报告 右履带断裂| (虎哥) 好悬没给我李宁给我踹开线了 |
 | voice_message_driver_radiator_damaged |驾驶员报告 散热器受损| (刀哥) 咋地啦! |
 | voice_message_driver_running_gear_damaged |驾驶员报告 主轮受损| (虎哥) 这一大飞脚嗷 |
 | voice_message_gunner_misfire |炮手报告 误失炮射| (刀哥) 你,你吃饱饭撑的啊你啊 |
-| voice_message_gunner_weve_been_hit |炮手报告 受到攻击| (赵三金) 他妈了个巴子的这一天 |
-| voice_message_loader_weve_been_hit |装填手报告 受到攻击| (虎哥) 硬刀硬枪硬头皮 |
-| voice_message_driver_weve_been_hit |驾驶员报告 受到攻击| (刀哥) 一拳能打死我妈 |
-| voice_message_gunner_\*_damaged |炮手报告 结构受损 (方向机,高低机,履带,炮管)| (团长) 你看看,这都啥样了这都! |
+| voice_message_gunner_\*_damaged |炮手报告 结构受损 (方向机,高低机,履带,炮管,引擎)| (团长) 你看看,这都啥样了这都! |
 | voice_message_driver_track_lost |驾驶员报告 履带完全损毁| (虎哥) 你跟我玩阴的嗷 |
 | voice_message_driver_wheel_lost |驾驶员报告 轮胎受损| (刀哥) 你是何方的出生 |
-| voice_message_gunner_\*_repaired |炮手报告 结构修复 (方向机,高低机,履带,炮管)| (虎哥) 都,都往后稍一稍! |
+| voice_message_gunner_\*_repaired |炮手报告 结构修复 (方向机,高低机,履带,炮管,引擎)| (虎哥) 都,都往后稍一稍! |
 | voice_message_\*_fire_extinguished |火情控制 燃烧已熄灭| (刀哥) 冰红茶滴水! |
 | voice_message_\*_fire |火情控制 起火| (刀哥) 不就是炒作么! |
 | voice_message_\*_fire_engine |火情控制 引擎起火| (刀哥) 我咋地了? |
@@ -71,6 +67,7 @@
 | voice_message_\*\_driver_\* \[driver_damaged\]|成员报告 驾驶员受伤/阵亡| (小亮) 呃, 唐老鸭要不行了.. |
 | voice_message_\*_taking_command |成员报告 车长受伤/阵亡| (黑牛) 团长他不行了,他这是什么啊这是 |
 | - | - 暂未适配语音 - | - |
+| voice_message_\*_weve_been_hit |成员报告 受到攻击| --已移除 (实在太频繁了) |
 | voice_message_artillery_\* |火炮支援复诵| 无 |
 | voice_message_commander_shot |开火| 无 |
 | voice_message_commander_reload |重新装填| 无 |
