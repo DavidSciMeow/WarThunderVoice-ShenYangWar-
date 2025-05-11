@@ -2214,11 +2214,6 @@
         <td>(刀哥) 脑袋..</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
         <td>vws_missile</td>
         <td>导弹告警</td>
         <td>(虎哥) 鬼</td>
@@ -2252,11 +2247,6 @@
         <td>vws_jammer</td>
         <td>干扰</td>
         <td>(虎哥) 上烟</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>vws_left_engine_failure</td>
@@ -2339,11 +2329,6 @@
         <td>(赵三金) 粉碎性骨折嗷</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
         <td>vws_lock</td>
         <td>锁定</td>
         <td>(小亮) 走!</td>
@@ -2352,11 +2337,6 @@
         <td>vws_lock_cockpit</td>
         <td>座舱锁定</td>
         <td>(刀哥) 搁胶布上下一缠</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>vws_main_gearbox_failure</td>
@@ -2374,6 +2354,6 @@
         <td>(赵三金) 咋整?</td>
     </tr>
 </table>
-<details>
+</details>
 
 
