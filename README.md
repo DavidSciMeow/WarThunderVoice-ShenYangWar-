@@ -2036,7 +2036,7 @@
 </details>
 
 <details>
-<summary>VWS\(空战语音告警\)</summary>
+<summary>VWS(空战语音告警)</summary>
 <table>
     <tr>
         <td>vws_filename</td>
