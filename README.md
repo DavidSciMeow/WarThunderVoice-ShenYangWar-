@@ -2034,3 +2034,346 @@
     </tr>
 </table>
 </details>
+
+<details>
+<summary>VWS\(空战语音告警\)</summary>
+<table>
+    <tr>
+        <td>vws_filename</td>
+        <td>含义</td>
+        <td>语音内容</td>
+    </tr>
+    <tr>
+        <td>vws_ahead</td>
+        <td>十二点方向</td>
+        <td>(刀哥) 12 一个</td>
+    </tr>
+    <tr>
+        <td>vws_behind</td>
+        <td>六点方向</td>
+        <td>(刀哥) 6 一个</td>
+    </tr>
+    <tr>
+        <td>vws_left</td>
+        <td>九点方向</td>
+        <td>(刀哥) 9 一个</td>
+    </tr>
+    <tr>
+        <td>vws_right</td>
+        <td>三点方向</td>
+        <td>(刀哥) 3 一个</td>
+    </tr>
+    <tr>
+        <td>vws_attack_air</td>
+        <td>空中雷达告警</td>
+        <td>(赵三金) 照我</td>
+    </tr>
+    <tr>
+        <td>vws_attack_gepard</td>
+        <td>自行高炮警告</td>
+        <td>(虎哥) 旋风</td>
+    </tr>
+    <tr>
+        <td>vws_attack_sam</td>
+        <td>地空导弹警告</td>
+        <td>(刀哥) 黑粉</td>
+    </tr>
+    <tr>
+        <td>vws_attack_stringer</td>
+        <td>单兵防空弹警告</td>
+        <td>(赵三金) 弹弓子</td>
+    </tr>
+    <tr>
+        <td>vws_airbreak</td>
+        <td>减速板开启</td>
+        <td>(刀哥) 老铁</td>
+    </tr>
+    <tr>
+        <td>vws_bingo</td>
+        <td>注意油量</td>
+        <td>(虎哥) 等我到调兵山的嗷</td>
+    </tr>
+    <tr>
+        <td>vws_caution</td>
+        <td>警告</td>
+        <td>(刀哥) 有活</td>
+    </tr>
+    <tr>
+        <td>vws_check_fuel</td>
+        <td>燃油检查</td>
+        <td>(虎哥) 加点汽油嗷</td>
+    </tr>
+    <tr>
+        <td>vws_check_gear</td>
+        <td>起落架检查</td>
+        <td>(团长) 下落不明</td>
+    </tr>
+    <tr>
+        <td>vws_check_mech</td>
+        <td>检查机械构件</td>
+        <td>(团长) 啥样了</td>
+    </tr>
+    <tr>
+        <td>vws_counter</td>
+        <td>遭遇</td>
+        <td>(赵三金) 啊?</td>
+    </tr>
+    <tr>
+        <td>vws_gear_down</td>
+        <td>起落架未到位</td>
+        <td>(刀哥) 露牛子了</td>
+    </tr>
+    <tr>
+        <td>vws_eject</td>
+        <td>弹射</td>
+        <td>(刀哥) 还乐呢</td>
+    </tr>
+    <tr>
+        <td>vws_chaff_flare</td>
+        <td>箔条抛洒</td>
+        <td>(刀哥) 胶布</td>
+    </tr>
+    <tr>
+        <td>vws_chaff_flare_low</td>
+        <td>箔条过少</td>
+        <td>(刀哥) 低</td>
+    </tr>
+    <tr>
+        <td>vws_out</td>
+        <td>箔条空(单字)</td>
+        <td>(团长) 干</td>
+    </tr>
+    <tr>
+        <td>vws_high</td>
+        <td>高(单字)</td>
+        <td>(赵三金) 高</td>
+    </tr>
+    <tr>
+        <td>vws_low</td>
+        <td>低(单字)</td>
+        <td>(刀哥) 低</td>
+    </tr>
+    <tr>
+        <td>vws_altitude</td>
+        <td>高度告警</td>
+        <td>(刀哥) body</td>
+    </tr>
+    <tr>
+        <td>vws_critical_altitude</td>
+        <td>决断高</td>
+        <td>(刀哥) 太深</td>
+    </tr>
+    <tr>
+        <td>vws_critical_angle</td>
+        <td>迎角过大</td>
+        <td>(小亮) 卧槽!</td>
+    </tr>
+    <tr>
+        <td>vws_critical_angle_2</td>
+        <td>最大攻角</td>
+        <td>(刀哥) 都能坚持一下</td>
+    </tr>
+    <tr>
+        <td>vws_critical_speed</td>
+        <td>决断速度</td>
+        <td>(刀哥) 不要命啊</td>
+    </tr>
+    <tr>
+        <td>vws_dangerous_close</td>
+        <td>危险距离</td>
+        <td>(刀哥) 他谁敢啊</td>
+    </tr>
+    <tr>
+        <td>vws_dangerous_vibration</td>
+        <td>危险振幅</td>
+        <td>(刀哥) 跨啦一下子</td>
+    </tr>
+    <tr>
+        <td>vws_low_consumables</td>
+        <td>高度过低</td>
+        <td>(团长) 把头抬起来!</td>
+    </tr>
+    <tr>
+        <td>vws_pull_up</td>
+        <td>拉起</td>
+        <td>(团长) 把头抬起来!</td>
+    </tr>
+    <tr>
+        <td>vws_roll_left</td>
+        <td>朝左滚转改出</td>
+        <td>(虎哥) 刀哥</td>
+    </tr>
+    <tr>
+        <td>vws_roll_right</td>
+        <td>朝右滚转改出</td>
+        <td>(虎哥) 团长</td>
+    </tr>
+    <tr>
+        <td>vws_over_g</td>
+        <td>注意过载</td>
+        <td>(刀哥) 脑袋..</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>vws_missile</td>
+        <td>导弹告警</td>
+        <td>(虎哥) 鬼</td>
+    </tr>
+    <tr>
+        <td>vws_missile_launch</td>
+        <td>导弹发射</td>
+        <td>(虎哥) 人</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>vws_fuel_low</td>
+        <td>油量低</td>
+        <td>(刀哥) 水太深了</td>
+    </tr>
+    <tr>
+        <td>vws_hydrosystem_failure</td>
+        <td>液压系统失效</td>
+        <td>(团长) 怎么搞的</td>
+    </tr>
+    <tr>
+        <td>vws_increase_engine_rpm</td>
+        <td>提高引擎转速</td>
+        <td>(刀哥) 给他举起来</td>
+    </tr>
+    <tr>
+        <td>vws_jammer</td>
+        <td>干扰</td>
+        <td>(虎哥) 上烟</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>vws_left_engine_failure</td>
+        <td>左发失效</td>
+        <td>(虎哥) 腰子给我创掉了</td>
+    </tr>
+    <tr>
+        <td>vws_left_engine_overheat</td>
+        <td>左发过热</td>
+        <td>(刀哥) 刚才是不是挺脆的</td>
+    </tr>
+    <tr>
+        <td>vws_left_generator_failure</td>
+        <td>左发电机失效</td>
+        <td>(刀哥) 咬个打火机</td>
+    </tr>
+    <tr>
+        <td>vws_right_engine_failure</td>
+        <td>右发失效</td>
+        <td>(虎哥) 腰子给我创掉了</td>
+    </tr>
+    <tr>
+        <td>vws_right_engine_overheat</td>
+        <td>右发过热</td>
+        <td>(刀哥) 刚才是不是挺脆的</td>
+    </tr>
+    <tr>
+        <td>vws_right_generator_failure</td>
+        <td>右发电机失效</td>
+        <td>(刀哥) 咬个打火机</td>
+    </tr>
+    <tr>
+        <td>vws_engine_fire_left</td>
+        <td>左发起火</td>
+        <td>(刀哥) 哎哎哎, 有事了啊兄弟们</td>
+    </tr>
+    <tr>
+        <td>vws_engine_fire_right</td>
+        <td>右发起火</td>
+        <td>(刀哥) 哎哎哎, 有事了啊兄弟们</td>
+    </tr>
+    <tr>
+        <td>vws_engine_overheat</td>
+        <td>引擎过热</td>
+        <td>(刀哥) 开水</td>
+    </tr>
+    <tr>
+        <td>vws_decrease_engine_rpm</td>
+        <td>减小发动机速度</td>
+        <td>(赵三金) 链子都都都蹬折了</td>
+    </tr>
+    <tr>
+        <td>vws_decrease_left_engine_rpm</td>
+        <td>减小左发速度</td>
+        <td>(赵三金) 链子都都都蹬折了</td>
+    </tr>
+    <tr>
+        <td>vws_decrease_right_engine_rpm</td>
+        <td>减小右发速度</td>
+        <td>(赵三金) 链子都都都蹬折了</td>
+    </tr>
+    <tr>
+        <td>vws_critical_right_engine_vibration</td>
+        <td>右发喘振</td>
+        <td>(赵三金) 粉碎性骨折嗷</td>
+    </tr>
+    <tr>
+        <td>vws_critical_left_engine_vibration</td>
+        <td>左发喘振</td>
+        <td>(赵三金) 粉碎性骨折嗷</td>
+    </tr>
+    <tr>
+        <td>vws_critical_engine_vibration</td>
+        <td>引擎喘振</td>
+        <td>(赵三金) 粉碎性骨折嗷</td>
+    </tr>
+    <tr>
+        <td>vws_critical_engine_vibration(2)</td>
+        <td>引擎喘振</td>
+        <td>(赵三金) 粉碎性骨折嗷</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>vws_lock</td>
+        <td>锁定</td>
+        <td>(小亮) 走!</td>
+    </tr>
+    <tr>
+        <td>vws_lock_cockpit</td>
+        <td>座舱锁定</td>
+        <td>(刀哥) 搁胶布上下一缠</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>vws_main_gearbox_failure</td>
+        <td>主变速箱失效</td>
+        <td>(刀哥) 没有活啦</td>
+    </tr>
+    <tr>
+        <td>vws_tailrotor_gearbox_failure</td>
+        <td>尾旋翼变速箱失效</td>
+        <td>(刀哥) 肛瘘</td>
+    </tr>
+    <tr>
+        <td>vws_warning</td>
+        <td>主警告</td>
+        <td>(赵三金) 咋整?</td>
+    </tr>
+</table>
+<details>
+
+
